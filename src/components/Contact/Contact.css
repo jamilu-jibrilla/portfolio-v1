@@ -1,0 +1,56 @@
+.contact {
+    padding: 5rem;
+    border-bottom: 1px solid rgba(104, 103, 103, 0.295);
+}
+
+.contact_text {
+    font-size: 1.8rem;
+}
+
+
+.contact_para {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.say_hi {
+    font-size: 1.2rem;
+    padding: .8rem 2rem;
+    border: 2px solid var(--green);
+    background-color: inherit;
+    color: var(--green);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .contact {
+        padding: 2rem;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.58);
+        border-bottom: none;
+    }
+    
+    .contact_text {
+        color: white;
+        font-weight: 500;
+        font-size: 1.7rem;
+        margin: 0;
+    }
+
+    
+    .contact_para {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+
+    .contact_text2 {
+        font-size: 1.1rem;
+        font-weight: normal;
+
+    }
+
+    .say_hi {
+        margin-top: 1rem;
+    }
+
+}

@@ -1,0 +1,36 @@
+.footer {
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_icons img{
+    rotate: 90deg;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.credit h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        opacity: .7;
+        padding: 2rem;
+    }
+
+    .social_icons {
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .credit h3 {
+        margin-bottom: 1rem;
+    }
+}

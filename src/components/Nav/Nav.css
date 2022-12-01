@@ -1,0 +1,116 @@
+nav {
+    position: absolute;
+    right: 0;
+    /* top: 5px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+li {
+    list-style: none;
+    font-weight: 600;
+}
+
+.logo {
+    font-size: 38px;
+    font-weight: bold;
+    margin-left: 4rem;
+    color: var(--green);
+}
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+    nav {
+        position: fixed;
+        left: 0;
+        top: 0;
+        padding: 1rem 0;
+        width: 100vw;
+        background: rgb(2, 25, 29);
+         box-shadow: 2px 2px 5px rgb(8, 34, 39);
+        justify-content: space-between;
+
+    }
+    .hamburger {
+        display: block;
+        margin-right: 2rem;
+    }
+
+    .line {
+        height: 3px;
+        width: 25px;
+        background-color: var(--green);
+        margin-bottom: 3px;
+        margin-left: auto;
+        transition: all ease-in-out .3s;
+
+    }
+
+    .line:first-child {
+        width: 30px;
+    }
+
+    .line:last-child {
+        width: 20px;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        padding : 1rem 0;
+        margin: 0;
+        top: 4rem;
+        left: 0;
+        width: 100%;
+        background-color: rgb(8, 34, 39);
+        transition: width .3s;
+        transition-timing-function: ease-in-out;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+    
+    .mobile_display {
+        width: 0px;
+        overflow: hidden;
+    }
+
+    .logo {
+        margin-left: 2rem;
+    }
+
+    .hamburger .line2 {
+        width: 25px;
+        height: 1.5px;
+        transform-origin: center ;
+    }
+
+    .hamburger .line2:first-child {
+        rotate: 45deg;
+        margin-bottom: -2px;
+    }
+
+    .hamburger .line2:last-child {
+        rotate: -45deg;
+        margin-top: -2px;
+    }
+
+    .remove {
+        display: none;
+    }
+}

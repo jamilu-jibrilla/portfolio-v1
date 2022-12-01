@@ -1,0 +1,128 @@
+.header {
+    display: flex;
+    height: 100vh;
+}
+
+.header > div:first-child {
+    width: 50vw;
+}
+.social_media {
+    display: flex;
+    justify-content: center;
+    margin-top: 11rem;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+.social_media img {
+    width: 21px;
+    height: 21px;
+    margin-top: 10px;
+    rotate: 90deg;
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-size: 1.4rem;
+}
+
+.info {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    white-space: nowrap;
+    font-weight: 400;
+    margin-top: -1rem;
+    margin-left: 3rem;
+}
+
+.intro {
+    color:  var(--dim);
+}
+
+.green {
+    color: var(--green);
+}
+
+.normal {
+    color: var(--text);
+}
+
+.intro_paragraph {
+    color: var(--dim);
+    white-space: no-wrap;
+    word-spacing: 2px;
+    line-height: 1.4em;
+}
+
+.header .background {
+    background-image: url('../../assets/backgrounds/background_dots.svg');
+    background-size: contain;
+    width: 50vw;
+    opacity: .2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .6rem;
+}
+
+.image__holder {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+}
+
+.hr {
+    height: 150px;
+    width: 1px;
+    border: none;
+    background-color: white;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 950px) {
+    .header .background {
+        display: none;
+    }
+
+    .social_media {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header .background, .social_media {
+        display: none;
+    }
+
+    .header > div:first-child {
+        width: 100vw;
+        overflow: hidden;
+        padding: 0 1rem;
+    }
+
+    .name {
+        font-size: 1.3rem;
+    }
+    br {
+        display: none;
+    }
+    .info {
+        font-size: 1.1rem;
+        margin-left: 0;
+        white-space: normal;
+        margin-top: 3rem;
+        line-height: 17px;
+        margin-left: 1rem;
+    }
+    .intro_paragraph {
+        word-spacing: 2px;
+        line-height: 1.7rem;
+    }
+    
+
+}

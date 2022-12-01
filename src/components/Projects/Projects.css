@@ -1,0 +1,47 @@
+.projects {
+    padding: 3rem 5rem;
+    border-bottom: 1px solid rgba(104, 103, 103, 0.295);
+}
+
+.header_text {
+    font-size: 1.6rem;
+    color: var(--green);
+    margin-bottom: 5rem;
+}
+
+.card_list{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.more_projects {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.more_projects button {
+    font-size: 1.2rem;
+    padding: .8rem 1.5rem;
+    border: 2px solid var(--green);
+    background-color: inherit;
+    color: var(--green);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .projects {
+        padding: 2rem;
+    }
+
+    .card_list{
+        margin-top: 0rem;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .header_text {
+        margin-bottom: 2rem;
+    }
+    
+}

@@ -1,0 +1,61 @@
+.card {
+    height: 135px;
+    overflow-y: hidden;
+    width: 355px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.53);
+    box-sizing: border-box;
+
+}
+
+.icon img {
+    width: 60px;
+}
+
+.project_text {
+    padding: 1rem;
+    height: inherit;
+    box-sizing: border-box;
+}
+.project_name {
+    font-size: 1.3rem;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.project_desc {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        height: 200px;
+        width: 100%;
+        margin-bottom: 1.5rem;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .project_name {
+        color: white;
+        font-weight: 500;
+        margin: 1rem 0;
+    }
+    
+}
