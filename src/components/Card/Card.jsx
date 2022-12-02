@@ -17,9 +17,19 @@ const Card = (props) => {
         </a>
         <p className="project_desc">{desc}</p>
       </div>
-      {/* 
-      <div className="none_desktop">
-      </div> */}
+
+      <div className="mobile_links">
+        <a target="_blank" href={live}>
+          <img className="img1" src="/link.png" alt="project live link" />
+        </a>
+        <a target="_blank" href={github}>
+          <img
+            className="img2"
+            src="/github_mobile.png"
+            alt="project github link"
+          />
+        </a>
+      </div>
     </div>
   );
 };

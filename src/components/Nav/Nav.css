@@ -37,10 +37,10 @@ li {
         position: fixed;
         left: 0;
         top: 0;
-        padding: 1rem 0;
+        padding: .8rem 0;
         width: 100vw;
         background: rgb(2, 25, 29);
-         box-shadow: 2px 2px 5px rgb(8, 34, 39);
+        box-shadow: 2px 2px 5px rgb(8, 34, 39);
         justify-content: space-between;
 
     }

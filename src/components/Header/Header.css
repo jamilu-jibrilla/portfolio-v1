@@ -104,7 +104,7 @@
         overflow: hidden;
         padding: 0 1rem;
     }
-
+    
     .name {
         font-size: 1.3rem;
     }
@@ -119,9 +119,13 @@
         line-height: 17px;
         margin-left: 1rem;
     }
+    .intro {
+        color: var(--text);
+    }
     .intro_paragraph {
         word-spacing: 2px;
         line-height: 1.7rem;
+        color: var(--text);
     }
     
 

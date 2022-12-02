@@ -19,17 +19,17 @@
 }
 
 .about .skills_para {
-    margin-left: 5rem;
+    margin-left: 4rem;
 }
 
 .about .skills_para_1{
-    margin-left: 5rem;
+    margin-left: 4rem;
     font-size: 1.1rem;
    line-height: 28px;
 }
 
 .about ul  {
-    margin-left: 5rem;
+    margin-left: 4rem;
     display: flex;
     justify-content: space-between;
     width: 350px;
@@ -50,7 +50,7 @@
 .cover {
     height: 270px;
     width: 270px;
-    margin-top: 10rem;
+    margin-top: 8rem;
     margin-right: -10rem;
     border-radius: 9px;
     border: 5px solid var(--green);

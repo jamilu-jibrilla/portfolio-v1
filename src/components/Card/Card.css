@@ -1,7 +1,6 @@
 .card {
     height: 135px;
-    overflow-y: hidden;
-    width: 355px;
+    width: 365px;
     background-color: rgba(0, 0, 0, 0.4);
     display: flex;
 }
@@ -28,15 +27,19 @@
 .project_name {
     font-size: 1.3rem;
     margin: 0;
-    color: rgba(255, 255, 255, 0.35);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .project_desc {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 23px;
     font-weight: normal;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.mobile_links {
+    display: none;
 }
 
 @media screen and (max-width: 900px) {
@@ -46,6 +49,8 @@
         margin-bottom: 1.5rem;
         background-color: rgba(0, 0, 0, 0.4);
         display: flex;
+        justify-content: space-between;
+        border-radius: 5px;
     }
 
     .icon {
@@ -53,9 +58,27 @@
     }
 
     .project_name {
-        color: white;
+        color: var(--text);
+        /* color: white; */
         font-weight: 500;
         margin: 1rem 0;
+    }
+
+    .mobile_links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 1rem;
+    }
+
+    .mobile_links a {
+        height: fit-content;
+        margin: 2rem 0;
+    }
+
+    .mobile_links .img2 {
+        height: 22px;
+        width: 22px;
     }
     
 }

@@ -1,5 +1,5 @@
 .projects {
-    padding: 3rem 5rem;
+    padding: 3rem 4rem;
     border-bottom: 1px solid rgba(104, 103, 103, 0.295);
 }
 
@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 900px) {
     .projects {
-        padding: 2rem;
+        padding: 2rem; 
     }
 
     .card_list{

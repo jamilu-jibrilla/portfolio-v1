@@ -6,6 +6,9 @@
     --text: rgba(255, 255, 255, 0.8);
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background: rgb(2, 25, 29);
@@ -14,7 +17,6 @@ body {
     overflow-x: hidden;
     color: var(--text);
     font-family: 'Inter', sans-serif;
-    scroll-behavior: smooth;
 }
 
 a {

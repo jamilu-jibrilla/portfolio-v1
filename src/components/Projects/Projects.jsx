@@ -5,7 +5,7 @@ import { projectData } from "../data";
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       <h2 className="header_text">Projects</h2>
       <div className="card_list">
         {projectData.slice(0, 3).map((project, index) => (

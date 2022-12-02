@@ -6,7 +6,7 @@ import github from "../../assets/social_media_icons/github.png";
 import Button from "../Button/Button";
 function Header() {
   return (
-    <header className="header">
+    <header id="home" className="header">
       <div className="text">
         <div className="social_media">
           <a href="https://www.linkedin.com/in/jamilu-jibrilla-575441211/">
@@ -40,7 +40,9 @@ function Header() {
               specifications.
             </span>
           </p>
-          <Button text={"Contact me"} />
+          <a href="#contact">
+            <Button text={"Contact me"} />
+          </a>
         </div>
 
         <div className="intro"></div>
