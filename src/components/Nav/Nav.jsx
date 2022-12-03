@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Button from "../Button/Button";
 import "./Nav.css";
-
+import pdf from "../../assets/Jamil_Resume.pdf";
 function Nav() {
   const [display, setDisplay] = useState(true);
   const handleDisplay = () => {
@@ -25,11 +25,7 @@ function Nav() {
         </li>
 
         <li>
-          <a
-            target="_blank"
-            download={"Resume - Jamilu Jibrilla"}
-            href="src\assets\Jamil_Resume.pdf"
-          >
+          <a target="_blank" download={"Resume - Jamilu Jibrilla"} href={pdf}>
             <Button text={"Resume"} />
           </a>
         </li>
