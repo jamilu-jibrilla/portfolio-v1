@@ -6,23 +6,23 @@ const Card = (props) => {
   return (
     <div className="card">
       <div className="icon">
-        <a target="_blank" href={github}>
+        <a href={github}>
           <img src={githubIcon} alt="Github logo" />
         </a>
       </div>
 
       <div className="project_text">
-        <a target="_blank" href={live}>
+        <a href={live}>
           <h1 className="project_name">{name}</h1>
         </a>
         <p className="project_desc">{desc}</p>
       </div>
 
       <div className="mobile_links">
-        <a target="_blank" href={live}>
+        <a href={live}>
           <img className="img1" src="/link.png" alt="project live link" />
         </a>
-        <a target="_blank" href={github}>
+        <a href={github}>
           <img
             className="img2"
             src="/github_mobile.png"

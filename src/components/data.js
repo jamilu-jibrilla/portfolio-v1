@@ -3,7 +3,7 @@ export const projectData = [
         name: "Chopify",
         description: "A mobile web app that allows users to order food from an ordered and categorized menu.",
         liveLink: "https://chopify.vercel.app/",
-        githubLink: "#"
+        githubLink: "#projects"
     },
     {
         name: "Nearby Restaurants",
