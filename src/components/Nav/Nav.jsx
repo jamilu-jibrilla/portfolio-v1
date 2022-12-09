@@ -7,21 +7,23 @@ function Nav() {
   const handleDisplay = () => {
     setDisplay((prev) => !prev);
   };
+
+
   return (
     <nav className="navbar">
       <span className="logo">JJ</span>
       <ul className={`${display ? "mobile_display" : ""}`}>
         <li>
-          <a href="#home">Home</a>
+          <a onClick={handleDisplay} href="#home">Home</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a onClick={handleDisplay} href="#about">About</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a onClick={handleDisplay} href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a onClick={handleDisplay} href="#contact">Contact</a>
         </li>
 
         <li>

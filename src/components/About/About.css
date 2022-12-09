@@ -15,7 +15,7 @@
 
 .about .h2_about{
     font-size: 1.6rem;
-    margin-left: 5rem;
+    margin-left: 4rem;
 }
 
 .about .skills_para {
@@ -48,21 +48,21 @@
 }
 
 .cover {
-    height: 270px;
-    width: 270px;
-    margin-top: 8rem;
-    margin-right: -10rem;
+    height: 260px;
+    width: 260px;
+    margin-top: 7rem;
+    margin-right: -7rem;
     border-radius: 9px;
     border: 5px solid var(--green);
 }
 
 .img_holder {
-    height: 270px;
-    width: 270px;
+    height: 100%;
+    width: 100%;
     border-radius: 9px;
     background-color: #D9D9D9;
-    margin-top: -2rem;
-    margin-left: -2rem;
+    margin-top: -1.5rem;
+    margin-left: -1.5rem;
     display: flex;
 }
 

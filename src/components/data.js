@@ -14,7 +14,7 @@ export const projectData = [
     {
         name: "Admin Dashboard",
         description: "A responsive dashboard where a list of users and user details fetched from an API are shown.",
-        liveLink: "https://legends-qr-submission.herokuapp.com/",
+        liveLink: "https://dashboard-app-plum.vercel.app/",
         githubLink: "https://github.com/jamilu-jibrilla/legends-qr-test"
     },
     {
